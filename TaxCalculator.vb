@@ -1,12 +1,4 @@
 ﻿Public Class TaxCalculator
-	Private Sub Label1_Click(sender As Object, e As EventArgs) Handles lblAmount.Click
-
-	End Sub
-
-	Private Sub Label1_Click_1(sender As Object, e As EventArgs) Handles lblPercent.Click
-
-	End Sub
-
 	Private Sub btnCalculate_Click(sender As Object, e As EventArgs) Handles btnCalculate.Click
 		Dim amount As Decimal
 		amount = txtAmount.Text
